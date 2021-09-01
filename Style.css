@@ -1,0 +1,90 @@
+body{
+    background-color: #090b1a;
+    Font-size: 15px;
+}
+
+.card{
+    background-color: #1b1938;
+    height: 400px;
+    width: 910px;
+    margin-top: 10%;
+    color: white;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.t{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#p{
+    padding-top: 5%;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: rgb(100%, 100%, 100%, 0.75);
+    text-transform:inherit;
+    text-align: left;
+    font-family: Lexend;
+    font-weight: 400;
+}
+
+#text{
+    color: #aa5cdb;
+}
+
+.imagem{
+    position: relative;
+}
+    
+.capa{
+    background: #5d2d7a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.6;
+}
+
+#col-1{
+    padding-top: 10%;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 33px;
+    text-transform:inherit;
+    text-align: left;
+}
+
+#t2{
+    padding-top: 10%;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.font{
+    font-size: 25px;
+}
+
+.font2{
+    font-size: 12px;
+    color: rgb(100%, 100%, 100%, 0.6);
+    font-family: Lexend;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(https://fonts.google.com/specimen/Inter);
+}
+
+@font-face {
+    font-family: Lexend;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+}
